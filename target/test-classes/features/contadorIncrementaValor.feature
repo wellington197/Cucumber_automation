@@ -17,4 +17,4 @@ Funcionalidade: Calculo contador
     Exemplos:
       | valorInicial | valorIncremental | valorTotal |
       | 8            | 15               | 23         |
-      | 10           | 25               | 35         |
+      | 15           | 25               | 40         |
