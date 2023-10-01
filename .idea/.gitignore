@@ -1,3 +1,12 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+
+- Criação do projeto via Maven
+- Instalação das dependências e plugins para uso da sintaxe Gherkin
+- Criação e estruturação das pastas das features e steps
+- Criação dos primeiros testes com a sintaxe Gherkin
+- Correção de erro de comunicação com os steps
+- Criação do arquivo Runner para executar o diretório de todas as fetures
+- Execução e criação de asserts para validar o teste
