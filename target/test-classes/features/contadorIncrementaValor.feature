@@ -18,3 +18,5 @@ Funcionalidade: Calculo contador
       | valorInicial | valorIncremental | valorTotal |
       | 8            | 15               | 23         |
       | 15           | 25               | 40         |
+
+
