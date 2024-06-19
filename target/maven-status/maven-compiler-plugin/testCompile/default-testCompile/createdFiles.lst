@@ -1,3 +1,4 @@
 com\steps\features\Runner.class
-com\steps\features\aprenderCucumber.class
+com\steps\features\ReaproveitamentoCenariosRegex.class
 com\steps\features\contadorIncrementaValor.class
+com\steps\features\aprenderCucumber.class

@@ -4,7 +4,7 @@
 
 Funcionalidade: Calculo contador
   Como usuário do sitema de contagem
-  O Contador consegur efetuar a soma de valores
+  Eu quero conseguir efetuar a soma de valores
   Para receber resultado total
 
 //Contexto: Usuário insere valor inicial
