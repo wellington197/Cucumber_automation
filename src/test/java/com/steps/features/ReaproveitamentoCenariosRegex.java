@@ -7,23 +7,23 @@ import io.cucumber.java.pt.Quando;
 
 public class ReaproveitamentoCenariosRegex {
 
-    @Dado("^que o ticket é AF(\\d+)$")
-    public void que_o_ticket_é_af(int arg1) throws Throwable {
+    @Dado("^que o ticket( especial)? é A.(\\d{3})$")
+    public void que_o_ticket_é_af(String tipo, int arg1) throws Throwable {
 
     }
-    @Dado("que o valor da passagem é R$ {double}")
-    public void que_o_valor_da_passagem_é_r$(Double double1) {
+    @Dado("^que o valor da passagem é R\\$ (\\d+),(\\d+)$")
+    public void que_o_valor_da_passagem_é_r$(int arg1, int arg2) {
 
     }
-    @Dado("que o nome do passageiro é {string}")
-    public void que_o_nome_do_passageiro_é(String string) {
+    @Dado("^que o nome do passageiro é \"(.{5,20})\"$")
+    public void que_o_nome_do_passageiro_é(String arg1) {
 
     }
-    @Dado("que o telefone do passageiro é {int}-{int}")
-    public void que_o_telefone_do_passageiro_é(Integer int1, Integer int2) {
+    @Dado("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+    public void que_o_telefone_do_passageiro_é(String telefone) {
 
     }
-    @Quando("criar os steps")
+    @Quando("^criar os steps$")
     public void criar_os_steps() {
 
     }

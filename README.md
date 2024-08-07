@@ -28,13 +28,6 @@ Além do uso da ferramenta **Cucumber** para descrição no código.
 
 - #### Passo 3: Instalar o pluguin do Cucumber na IDE
 
-
-
-
-
-```
-npm install -g newman
-```
 ## Como rodar os testes
 
 
